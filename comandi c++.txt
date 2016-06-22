@@ -1,0 +1,24 @@
+-Se bisogna passare un nome del file di testo come argoemnto (char *argv[])
+da terminale(windows) 
+g++ -o file 20luglio2015.cpp
+file.exe numeri.txt
+-comandi g++ da terminale
+g++ superficie.cpp superficieraggio.cpp -o Programma.exe  (linka i due file e crea il file .exe del nome scelto)
+g++ nomefile.cpp -c(genera un file con estensione ".o")
+g++ superficie.cpp superficieraggio.cpp (linka i due file e crea il file .exe con un nome di default)
+-Lo switch si puoò usare solo con int e char (niente float o double, o string)
+-Mettere in una variabile string delle parole scritte dalla tastiera (anche con degli spazi)
+            
+                string name;
+		cout << "Please, enter your full name: ";
+		getline(cin, name);
+-pulire il zozzo in cin
+cin.ignore(INT_MAX, '\n');
+-mettere in un array di char delle parole scritte dalla tastiera (anche con gli spazi)
+ char nome[dimensione array];
+  cout« "Ciao scrivi"« endl;
+  cin.getline(nome,100);
+per fare una somma di vettori, bisogna utilizzare un ciclo di for 
+es. for(int i=0; i <n; i++) somma+= c[i];
+per fare una sottrazione , bisogna utilizzare un ciclo di for 
+es. for (int i=n; i=0;i++) sottrazione -= a[i]; 
