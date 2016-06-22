@@ -22,3 +22,8 @@ per fare una somma di vettori, bisogna utilizzare un ciclo di for
 es. for(int i=0; i <n; i++) somma+= c[i];
 per fare una sottrazione , bisogna utilizzare un ciclo di for 
 es. for (int i=n; i=0;i++) sottrazione -= a[i]; 
+ -Per inserire alcuni caratteri speciali
+È
+char c;
+c = 138 ;
+
